@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding-block: 40px;
+}
+
+.promo {
+    background: url(./img/fon.png);
+    height: 900px;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    
+    padding-top: 30px;
+    align-items: center;
+}
+
+.left {
+ display: flex;
+ gap: 25px;
+}
+
+.left a {
+    color: #FFF;
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-decoration: none;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.right {
+    
+    display: flex;
+    gap: 25px;
+    
+}
+
+.title {
+    padding-top: 330px;
+    text-align: center;
+}
+
+.line {
+    display: flex;
+    justify-content: center;
+    height: 2px;
+    margin: 10px 0 10px;
+}
+
+.title h2 {
+    color: #FFF;
+
+font-family: Raleway;
+font-size: 46px;
+font-style: normal;
+font-weight: 300;
+
+line-height: normal;
+}
+
+.title a {
+    color: #FFF;
+
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-transform: uppercase;
+text-decoration: none;
+
+}
+
+.tit h2 {
+    color: #252525;
+    font-family: Raleway;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding-bottom: 50px;
+}
+
+
+.box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 14px;
+}
+
+.box1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 100px;
+    
+}
+
+.box1 h2 {
+    color: #252525;
+text-align: center;
+font-family: Raleway;
+font-size: 36px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+.box1 p {
+    color: #252525;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+}
+
+.input {
+    color: rgba(37, 37, 37, 0.50);
+text-align: center;
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 200;
+line-height: normal;
+}
+
+.box1 button {
+    width: 600px;
+    height: 50px;
+    background: #E0BEA2;
+    border-style: none;
+    color: #FFF;
+text-align: center;
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-transform: uppercase;
+
+}
+
+.box1 input {
+    width: 600px;
+height: 50px;
+}
+
+.btn {
+    margin-left: 290px;
+    margin-bottom: 25px;
+}
+
+.forum {
+    margin-left: 290px;
+    padding-block: 40px;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-between;
+    gap: 47px;
+    padding-top: 100px;
+}
+
+.foot a {
+    color: #252525;
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 200;
+line-height: normal;
+text-decoration: none;
+}
+
+.foot h2 {
+    color: #252525;
+    padding-bottom: 20px;
+font-family: Raleway;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+.a {
+    display: block;
+    padding-bottom: 5px;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        width: 900px;
+        padding: 0 20px;
+    }
+}
+@media (max-width: 992px) {
+    
+    .promo {
+       background-image: url(.//img/Yanki\ \(51\)\ 1.png);
+       max-width: 100%;
+    }
+    .container {
+        width: 700px;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        width: 500px;
+    }
+
+.box1 input {
+   max-width: 200px;
+   
+    
+}  
+
+.title h2 {
+    font-size: 36px;
+}
+    .btn {
+    max-width: 200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    }
+
+    .img1 {
+        max-width: 300px;
+    }
+
+    .tit h2 {
+        font-size: 26px;
+        padding-top: 30px;
+    }
+
+    .box1 button {
+        display: flex;
+        text-align: center;
+        align-items: c;
+    }
+
+    .box1 h2 {
+        font-size: 26px;
+    }
+
+    .foot {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left {
+        display: none;
+    }
+
+   .imglogo {
+    display: none;
+   }
+
+   .img {
+    display: none;
+   }
+}
+
